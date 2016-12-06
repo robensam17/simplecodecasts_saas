@@ -6,4 +6,5 @@ def contact_email(name, email, body)
   @email = email
   @body = body
   mail(from: email, subject: 'Contact from Message')
-endend
+end
+end
